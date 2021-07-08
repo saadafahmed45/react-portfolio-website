@@ -8,7 +8,6 @@ const Header = () => {
     <>
       <div className="header_section">
         <Navbar></Navbar>
-
         <div className="container">
           <div className="row">
             <div className="col-12">

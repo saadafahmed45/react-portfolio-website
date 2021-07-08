@@ -1,6 +1,8 @@
 @import "../../Shared/styles/color.scss";
 
-
+nav{
+	z-index: 2;
+}
 #navbarNav {
 	margin-left: 26%;
 }

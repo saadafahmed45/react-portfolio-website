@@ -1,0 +1,44 @@
+@import "../../Shared/styles/color.scss";
+@import "../../Shared/styles/fonts.scss";
+.about_section {
+  // padding: 80px 0px;
+  background-color: $light-hd-color;
+}
+section {
+  padding: 80px 0px;
+  // background-color:#fff;
+}
+
+.about_content h1 {
+  font-size: $sec-font;
+  font-weight: $bold-lg;
+}
+.section-header h1 {
+  font-size: $sec-font;
+  font-weight: $bold-lg;
+  color: $dark-color;
+}
+
+.section-header span {
+  color: $primary-color;
+}
+.about_content span {
+  color: $primary-color;
+}
+.about_img img {
+  width: 80%;
+  /* background: fixed; */
+}
+.about_content {
+  text-align: left;
+}
+.about_content p {
+  width: 75%;
+  text-align: left;
+  margin-top: 5%;
+}
+.about_content {
+  margin-top: 12%;
+  margin-left: 10%;
+
+}

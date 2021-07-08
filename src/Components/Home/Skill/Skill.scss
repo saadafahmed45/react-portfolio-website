@@ -1,0 +1,30 @@
+@import "../../Shared/styles/color.scss";
+@import "../../Shared/styles/color.scss";
+
+.skill_section {
+  background: $light-color;
+}
+.single-prg h5 {
+  text-align: left;
+  margin-top: 18px;
+  font-size: 18px;
+  opacity: 0.9;
+}
+.skill_dis {
+  margin-top: 20px;
+}
+.skill_content.section-header p {
+  // text-align: left;
+  opacity: 0.9;
+  font-size: 16px;
+  width: 80%;
+
+  //   color: #575a89;
+}
+.skill_content {
+  text-align: left;
+}
+.skill_img img {
+  margin-top: 12%;
+  width: 100%;
+}
