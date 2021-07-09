@@ -16,6 +16,14 @@ const Home = () => {
                 enable: true,
                 value_area: 900,
               },
+              
+              // shape:{
+              //   type:"circle",
+              //   stroke:{
+              //     width:10,
+              //     color:"red"
+              //   }
+              // }
             },
           },
         }}
