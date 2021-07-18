@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 import aboutimg from "../../../images/about.svg";
-
+import Fade from 'react-reveal/Fade';
 const About = () => {
   return (
     <section className="about_section">
@@ -11,15 +11,18 @@ const About = () => {
         </div>
         <div className="row">
           <div className="col-md-6">
+          <Fade left>
             <div className="about_img">
               <img src={aboutimg} alt="" />
             </div>
+            </Fade>
           </div>
           <div className="col-md-6">
+          <Fade bottom>
             <div className="about_content">
-              <h1>
-                About <span>Me</span>
-              </h1>
+              <h2>
+                 <span>About</span>
+              </h2>
               {/* <h5>Summary:</h5> */}
               <p>
                <b> I'm  Mohammad Haolader.</b> <br/> Currently studying Computer Science at
@@ -31,6 +34,7 @@ const About = () => {
                 every project.
               </p>
             </div>
+            </Fade>
           </div>
         </div>
       </div>

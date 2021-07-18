@@ -6,7 +6,7 @@ import Particles from "react-particles-js";
 
 const Home = () => {
   return (
-    <div>
+    <>
       <Particles
         params={{
           particles: {
@@ -28,10 +28,10 @@ const Home = () => {
           },
         }}
       />
-      {/* <Navbar></Navbar> */}
+      <Navbar></Navbar>
       <Header></Header>
       {/* <About></About> */}
-    </div>
+    </>
   );
 };
 

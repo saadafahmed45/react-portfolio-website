@@ -4,32 +4,32 @@ import About from "./Components/Home/About/About";
 import HomeMain from "./Components/HomeMain/HomeMain";
 import Dashboard from "./Components/Admin/Dashboard/Dashboard";
 import AddPortfolio from "./Components/Admin/AddPortfolio/AddPortfolio";
-
+import Contact from "./Components/Home/AboutSection/AboutSection";
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
           <Route exact path="/">
-           <HomeMain></HomeMain>
+            <HomeMain></HomeMain>
           </Route>
 
           <Route path="/about">
             <About />
           </Route>
+
+          <Route path="/about">
+         <Contact></Contact>
+          </Route>
           <Route path="/dashboard">
-          <Dashboard></Dashboard>
-            </Route>
+            <Dashboard></Dashboard>
+          </Route>
 
+          {/* Admin */}
 
-            {/* Admin */}
-
-            <Route path="/dashbord/addPortfolio">
- <AddPortfolio></AddPortfolio>
-            </Route>
-
-
-
+          <Route path="/dashbord/addPortfolio">
+            <AddPortfolio></AddPortfolio>
+          </Route>
 
           <Route path="*">
             <h1>Fuck uh Hatters</h1>

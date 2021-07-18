@@ -1,0 +1,126 @@
+@import "../../Shared/styles/color.scss";
+@import "../../Shared/styles/fonts.scss";
+
+.contact_section {
+  background: $light-color;
+  padding: 10px;
+}
+
+.text_area textarea {
+  width: 27rem;
+  color: $dark-color;
+}
+
+.em input {
+  width: 100%;
+  //   width: 27rem;
+}
+.em textarea {
+  width: 100%;
+  //   width: 27rem;
+}
+
+.contact_btn input {
+  padding: 7px 25px;
+  border-radius: 30px;
+  color: $dark-color;
+  border: 2px solid $primary-color;
+  color: $light-color;
+
+  background: $primary-color;
+}
+.contact_btn input:hover {
+  border: 2px solid $primary-color;
+  background: $primary-color;
+
+  transition: 0.3s;
+  padding: 7px 26px;
+
+  color: $dark-color;
+  // text-decoration: none;
+}
+
+.contact_text.text-left h1 {
+  font-size: 35px;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.contact_from.text-left {
+  margin-top: 35px;
+}
+.contact_text.text-left {
+  margin-left: 10px;
+}
+.contact_img img {
+  width: 82%;
+  margin-top: 18%;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+  .em input {
+    width: 18rem;
+  }
+  .em textarea {
+    width: 18rem;
+  }
+  .text_area textarea {
+    width: 18rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .em input {
+    width: 26rem;
+  }
+  .em textarea {
+    width: 26rem;
+  }
+  .text_area textarea {
+    width: 26rem;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .em input {
+    width: 20rem;
+  }
+  .em textarea {
+    width: 20rem;
+  }
+  .text_area textarea {
+    width: 20rem;
+  }
+  .contact_img img {
+    width: 82%;
+    margin-top: 60%;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .em input {
+    width: 30rem;
+  }
+  .em textarea {
+    width: 30rem;
+  }
+  .text_area textarea {
+    width: 30rem;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .em input {
+    width: 30rem;
+  }
+  .em textarea {
+    width: 30rem;
+  }
+  .text_area textarea {
+    width: 30rem;
+  }
+}

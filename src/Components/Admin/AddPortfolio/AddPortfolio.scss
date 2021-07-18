@@ -1,6 +1,9 @@
-.input-box h5 {
+@import "../../Shared/styles/color.scss";
+@import "../../Shared/styles/fonts.scss";
+
+.input-box p {
     text-align: left;
-    font-size:18px;
+    font-size:16px;
 }
 
 .input-box {
@@ -9,6 +12,23 @@
     box-shadow: 0px 0px 7px -2px;
     padding: 40px 20px;
     border-radius: 10px;
+}
+.portfolio_Abtn{
+    padding: 8px 18px;
+	border: 2px solid $primary-color;
+	border-radius: 30px;
+	color: $dark-color;
+  background-color: $primary-color;
+    font-weight: 600;
+}
+.portfolio_Abtn:hover{
+  background-color: $dark-color;
+	color: $primary-color;
+
+  text-decoration: none;
+  transition:.3s;
+  padding: 10px 20px;
+
 }
 
 /* .cost-form {

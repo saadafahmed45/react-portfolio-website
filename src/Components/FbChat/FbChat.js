@@ -1,0 +1,16 @@
+import React from "react";
+import MessengerCustomerChat from "react-messenger-customer-chat";
+const FbChat = () => {
+  return (
+    <div>
+      <MessengerCustomerChat
+        pageId="106311301547096"
+        appId="3927275724050495"
+        
+      />
+      
+    </div>
+  );
+};
+
+export default FbChat;

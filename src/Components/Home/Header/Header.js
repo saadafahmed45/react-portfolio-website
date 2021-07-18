@@ -1,13 +1,15 @@
 import React from "react";
 import "./Header.scss";
 import Typical from "react-typical";
+import Jump from 'react-reveal/Jump';
+import FbChat from "../../FbChat/FbChat";
 
-import Navbar from "../../Shared/Navbar/Navbar";
+
 const Header = () => {
   return (
     <>
       <div className="header_section">
-        <Navbar></Navbar>
+    
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -37,9 +39,13 @@ const Header = () => {
                   but the majority have suffered alteration.
                 </p>
               </div>
-              <div className="header-btn mt-5">
-                <a href="http://imroz.rainbowit.net/dark-portfolio-landing#service"> Download CV</a>
+              <Jump
+              duration={3000}>
+              <div className="header-btn ">
+                <a href="https://drive.google.com/file/d/1cEukF4u6DwOjeQabzfS_ylVgbReCmeEh/view?usp=sharing"> Download CV</a>
+                <FbChat></FbChat>
               </div>
+              </Jump>
             </div>
           </div>
         </div>

@@ -1,18 +1,20 @@
 import React from 'react';
-import About from '../Home/About/About';
+import AboutSection from '../Home/AboutSection/AboutSection';
+import Contact from '../Home/Contact/Contact';
 import Home from '../Home/Home/Home';
 import Portfolio from '../Home/Portfolio/Portfolio';
 import Services from '../Home/Services/Services';
-import Skill from '../Home/Skill/Skill';
+import Footer from '../Home/Footer/Footer';
 const HomeMain = () => {
     return (
-        <div>
+        <>    
             <Home></Home>
-            <About></About>
-            <Skill></Skill>
-            <Services></Services>
+            <AboutSection></AboutSection>
             <Portfolio></Portfolio>
-        </div>
+            <Services></Services>
+            <Contact></Contact>
+      <Footer></Footer>
+        </>
     );
 };
 

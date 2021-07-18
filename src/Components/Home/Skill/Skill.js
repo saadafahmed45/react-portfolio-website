@@ -2,8 +2,15 @@ import React from "react";
 import "./Skill.scss";
 import skillImg from "../../../images/skillsvg.svg";
 import ProgressBar from "@ramonak/react-progress-bar";
+import { DiReact } from "react-icons/di";
+import { DiNodejsSmall } from "react-icons/di";
+import { DiWordpress } from "react-icons/di";
+import { DiMongodb } from "react-icons/di";
+import Slide from 'react-reveal/Slide';
+import Fade from 'react-reveal/Fade';
 
 const Skill = () => {
+  
   return (
     <section className="skill_section">
       <div className="container">
@@ -12,10 +19,11 @@ const Skill = () => {
         </div>
         <div className="row">
           <div className="col-md-6">
+          <Fade bottom>
             <div className="skill_content section-header">
-              <h1>
-                My <span>Skills</span>
-              </h1>
+              <h2>
+                 <span>Skills</span>
+              </h2>
               <div className="skill_dis">
                 <h6>
                   <b>Experience:</b>
@@ -33,7 +41,9 @@ const Skill = () => {
               </div>
               <div className="skill-ProgressBar mt-5">
                 <div className="single-prg">
-                  <h5>React.js</h5>
+                  <h5>React.js <DiReact/></h5>
+                
+
                   <ProgressBar
                     completed={80}
                     bgColor="#463B41"
@@ -45,11 +55,13 @@ const Skill = () => {
                     margin="5"
                     width="80%"
                     padding="45"
-                    transitionDuration="6"
+                    transitionDuration="2s"
+                    transitionTimingFunction="ease-in-out	"
                   />
+                  
                 </div>
                 <div className="single-prg">
-                  <h5>Node.js</h5>
+                  <h5>Node.js <DiNodejsSmall/></h5>
                   <ProgressBar
                     completed={70}
                     bgColor="#463B41"
@@ -65,7 +77,7 @@ const Skill = () => {
                   />
                 </div>
                 <div className="single-prg">
-                  <h5>MongoDB</h5>
+                  <h5>MongoDB <DiMongodb/> </h5>
                   <ProgressBar
                     completed={50}
                     bgColor="#463B41"
@@ -81,7 +93,7 @@ const Skill = () => {
                   />
                 </div>
                 <div className="single-prg">
-                  <h5>WordPress</h5>
+                  <h5>WordPress <DiWordpress/></h5>
                   <ProgressBar
                     completed={85}
                     bgColor="#463B41"
@@ -98,11 +110,15 @@ const Skill = () => {
                 </div>
               </div>
             </div>
+            </Fade>
           </div>
           <div className="col-md-6">
+          <Fade right>
+
             <div className="skill_img">
               <img src={skillImg} alt="" />
-            </div>
+           </div>
+            </Fade>
           </div>
         </div>
       </div>
