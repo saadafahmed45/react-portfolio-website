@@ -42,8 +42,6 @@ const Skill = () => {
               <div className="skill-ProgressBar mt-5">
                 <div className="single-prg">
                   <h5>React.js <DiReact/></h5>
-                
-
                   <ProgressBar
                     completed={80}
                     bgColor="#463B41"

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
+import logo from "../../../images/lg.png"
 // import Home from "../../Home/Home/Home";
 // import { Link, } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
@@ -25,7 +26,8 @@ const Navbar = () => {
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-transparent  fixed-top">
         <Link class="navbar-brand ml-5" to="/">
-          <i>M.H</i>
+          {/* <i>M.H</i> */}
+          <img src={logo} alt="" />
         </Link>
 
         <button

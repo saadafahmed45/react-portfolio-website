@@ -5,6 +5,7 @@ import HomeMain from "./Components/HomeMain/HomeMain";
 import Dashboard from "./Components/Admin/Dashboard/Dashboard";
 import AddPortfolio from "./Components/Admin/AddPortfolio/AddPortfolio";
 import Contact from "./Components/Home/AboutSection/AboutSection";
+import NotFound from "./Components/NotFound/NotFound";
 function App() {
   return (
     <div className="App">
@@ -32,7 +33,7 @@ function App() {
           </Route>
 
           <Route path="*">
-            <h1>Fuck uh Hatters</h1>
+        <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>

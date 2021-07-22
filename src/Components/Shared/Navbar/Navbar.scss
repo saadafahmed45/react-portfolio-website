@@ -1,5 +1,8 @@
 @import "../../Shared/styles/color.scss";
 
+.navbar-brand.ml-5 img {
+	width: 80px;
+}
 nav{
 	z-index: 2;
 	position: sticky;
@@ -21,7 +24,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent {
 }
 
 .social_link {
-    margin-left: 13%;
+    margin-left: 11%;
 }
 
 .main_nav_active:active{
