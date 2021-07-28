@@ -15,7 +15,7 @@ const Skill = () => {
     <section className="skill_section">
       <div className="container">
         <div className="about_header  text-center">
-          {/* <h1>About <span>Me</span></h1> */}
+   
         </div>
         <div className="row">
           <div className="col-md-6">

@@ -24,10 +24,10 @@ const Profile = () => {
           <div className="col-md-6 ">
           <Fade bottom>
 
-            <div className=" section-header profile_content_main text-left">
+            <div className=" section-header profile_content_main text-left mt-5">
             <h2>
                   {" "}
-                  <span>Profile_</span>
+                  <span>Profile</span>
                 </h2>
               <div className="profile_content">
                 

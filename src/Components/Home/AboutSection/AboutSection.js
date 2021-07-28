@@ -16,8 +16,8 @@ const AboutSection = () => {
             </h1>
           </div>
         </Fade>
-        <div class="row">
-          <div className="col-md">
+        <div class="row mt-4">
+          <div className="col-12">
             <nav>
               <div class="nav nav-tabs" id="nav-tab" role="tablist">
                 <a

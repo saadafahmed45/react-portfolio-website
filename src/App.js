@@ -6,6 +6,7 @@ import Dashboard from "./Components/Admin/Dashboard/Dashboard";
 import AddPortfolio from "./Components/Admin/AddPortfolio/AddPortfolio";
 import Contact from "./Components/Home/AboutSection/AboutSection";
 import NotFound from "./Components/NotFound/NotFound";
+
 function App() {
   return (
     <div className="App">
@@ -37,6 +38,10 @@ function App() {
           </Route>
         </Switch>
       </Router>
+
+
+
+    
     </div>
   );
 }

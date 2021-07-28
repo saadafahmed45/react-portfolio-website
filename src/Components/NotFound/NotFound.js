@@ -8,6 +8,8 @@ const NotFound = () => {
       </section>
       <div>
         <button className="btn btn-sm btn-outline-success">Home Pages</button>
+        <h4>Lorem ipsum dolor sit.</h4>
+ 
       </div>
     </div>
   );
