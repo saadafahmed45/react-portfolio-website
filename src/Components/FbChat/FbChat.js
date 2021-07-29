@@ -4,7 +4,7 @@ const FbChat = () => {
   return (
     <div>
       <MessengerCustomerChat
-        pageId="106311301547096"
+        pageId="102287118807655"
         appId="3927275724050495"
         
       />

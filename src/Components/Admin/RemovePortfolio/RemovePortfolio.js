@@ -8,14 +8,14 @@ const RemovePortfolio = () => {
   const [portfolio, setPortfolio] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:7000/portfolio")
+    fetch("https://floating-everglades-55715.herokuapp.com/portfolio")
       .then((res) => res.json())
       .then((data) => setPortfolio(data));
   }, []);
 
   function deleteProduct(id) {
     console.log(id);
-    fetch(`http://localhost:7000/delete/${id}`, {
+    fetch(`https://floating-everglades-55715.herokuapp.com/delete/${id}`, {
       method: "DELETE",
     }).then((result) => {
       if (result) {
