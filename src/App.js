@@ -4,6 +4,7 @@ import About from "./Components/Home/About/About";
 import HomeMain from "./Components/HomeMain/HomeMain";
 import Dashboard from "./Components/Admin/Dashboard/Dashboard";
 import AddPortfolio from "./Components/Admin/AddPortfolio/AddPortfolio";
+import RemovePortfolio from "./Components/Admin/RemovePortfolio/RemovePortfolio";
 import Contact from "./Components/Home/AboutSection/AboutSection";
 import NotFound from "./Components/NotFound/NotFound";
 
@@ -31,6 +32,10 @@ function App() {
 
           <Route path="/dashbord/addPortfolio">
             <AddPortfolio></AddPortfolio>
+          </Route>
+          
+          <Route path="/dashbord/removePortfolio">
+      <RemovePortfolio></RemovePortfolio>
           </Route>
 
           <Route path="*">

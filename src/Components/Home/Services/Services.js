@@ -1,8 +1,11 @@
 import React from "react";
 import "./Services.scss";
 import service1 from "../../../images/Code_review.svg";
-import service2 from "../../../images/error.svg";
-import service3 from "../../../images/static_web.svg";
+import service2 from "../../../images/responsive.svg";
+import service3 from "../../../images/static.png";
+import service4 from "../../../images/e-commerce.png";
+import service5 from "../../../images/wordpress.svg";
+import service6 from "../../../images/undraw_authentication_fsn5.png";
 import { Link } from "react-router-dom";
 import Fade from "react-reveal/Fade";
 
@@ -14,18 +17,38 @@ const Services = () => {
       serviceContent:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat minima iusto sunt officia dolorem, blanditiis qui similique perspiciatis veniam!",
     },
+   
     {
-      service: "Bug Fix",
+      service: "Static Web",
+      ServiceImg: service3,
+      serviceContent:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat minima iusto sunt officia dolorem, blanditiis qui similique perspiciatis veniam! lorem",
+    },
+    {
+      service: "Responsive Design",
       ServiceImg: service2,
       serviceContent:
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat minima iusto sunt officia dolorem, blanditiis qui similique perspiciatis veniam!",
     },
     {
-      service: "Static Web",
-      ServiceImg: service3,
+      service: "E-Commerce",
+      ServiceImg: service4,
       serviceContent:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat minima iusto sunt officia dolorem, blanditiis qui similique perspiciatis veniam!",
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat minima iusto sunt officia dolorem, blanditiis qui similique perspiciatis veniam! lorem",
     },
+    {
+      service: "WordPress Customize",
+      ServiceImg: service5,
+      serviceContent:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat minima iusto sunt officia dolorem, blanditiis qui similique perspiciatis veniam! lorem",
+    },
+    {
+      service: "Authentication",
+      ServiceImg: service6,
+      serviceContent:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat minima iusto sunt officia dolorem, blanditiis qui similique perspiciatis veniam! lorem",
+    },
+
   ];
 
   return (
@@ -56,7 +79,6 @@ const Services = () => {
                     <h3>{service.service}</h3>
                     <p>
                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Ad numquam tempore .
                     </p>
                   </div>
                 </div>

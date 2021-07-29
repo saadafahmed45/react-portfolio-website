@@ -3,7 +3,6 @@ import "./Portfolio.scss";
 import ModalImage from "react-modal-image";
 
 import service2 from "../../../images/error.svg";
-import service3 from "../../../images/Screenshot 2021-07-07 at 04-13-43 Portfolio Landing React Multipurpose Template.png";
 import { Lightbox } from "react-modal-image";
 import Fade from 'react-reveal/Fade';
 
@@ -45,6 +44,7 @@ const Portfolio = () => {
           <div className="portfolio_box text-center">
             <div className="portfolio_img ">
               <ModalImage small={data.imageURL} large={data.fullImageURL} alt="" />
+              {/* <img src={data.imageURL} alt="" /> */}
               <h5>{data.name}</h5>
             </div>
             <div className="portfolio_btn">

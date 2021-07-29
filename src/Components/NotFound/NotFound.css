@@ -1,32 +1,14 @@
-/* {
-   
- 
-    "tabnine.experimentalAutoImports": true,
-    "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
- 
-     "files.autoSave": "afterDelay",
-     "editor.fontSize": 15,
-     "workbench.iconTheme": "material-icon-theme",
-     // "kite.showWelcomeNotificationOnStartup": false,
-     "terminal.integrated.defaultProfile.windows": "Git Bash",
-     "[javascript]": {
-         "editor.defaultFormatter": "esbenp.prettier-vscode"
-     },
-     "editor.cursorBlinking": "smooth",
-     "editor.cursorSmoothCaretAnimation": true,
-     "editor.find.autoFindInSelection": "multiline",
-     "extensions.closeExtensionDetailsOnViewChange": true,
-     "editor.minimap.enabled": false,
-     "javascript.updateImportsOnFileMove.enabled": "always",
-     "emmet.triggerExpansionOnTab": true,
-     "emmet.includeLanguages": {
-         "javascript": "javascriptreact",
-         "vue-html": "html",
-         "razor": "html",
-         "plaintext": "jade"
-         
-     
-   
- }
- 
-  */
+.error_page img {
+	width: 100%;
+	height: 220px;
+}
+
+@media (max-width: 575.98px) {
+    .error_page{
+        margin-top: 20%;
+    }
+    .error_page img {
+        width: 100%;
+        height: 150px;
+    }
+}

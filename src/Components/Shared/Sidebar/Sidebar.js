@@ -31,12 +31,12 @@ const Sidebar = () => {
         </li>
         <li>
           <Link to="/dashbord/addPortfolio" className="text-white">
-            <FontAwesomeIcon icon={faCalendar} /> <span>Add Portfolio</span>
+            <FontAwesomeIcon icon={faFileAlt} /> <span>Add Portfolio</span>
           </Link>
         </li>
         <li>
-          <Link to="/dashbord/makeAdmin" className="text-white">
-            <FontAwesomeIcon icon={faUserMd} /> <span>Make Admin</span>
+          <Link to="/dashbord/removePortfolio" className="text-white">
+            <FontAwesomeIcon icon={faCalendar} /> <span>Remove Portfolio</span>
           </Link>
         </li>
         <li>

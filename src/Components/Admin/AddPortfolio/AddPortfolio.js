@@ -86,7 +86,7 @@ const AddPortfolio = () => {
         <div className="col-sm-6 col-md-2">
           <Sidebar></Sidebar>
         </div>
-        <div className="col-sm-6 col-md-8">
+        <div className="col-sm-6 col-md-9">
           {/* <h1>this is Dashboard</h1> */}
 
           <div className="container" style={{ padding: "30px" }}>
