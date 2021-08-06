@@ -6,9 +6,7 @@ import {
   faCog,
   faSignOutAlt,
   faCalendar,
-  faGripHorizontal,
-  faUsers,
-  faUserMd,
+
 } from "@fortawesome/free-solid-svg-icons";
 import { faFileAlt } from "@fortawesome/free-regular-svg-icons";
 

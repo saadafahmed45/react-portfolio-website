@@ -7,8 +7,13 @@ nav{
 	z-index: 2;
 	position: sticky;
 }
+
+.scroll{
+	background:  #000000c0  !important;
+
+}
 nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent {
- background:  #0000007d  !important;
+ background:transparent;
 }
 .social_link svg {
     // color: #fff;
@@ -24,7 +29,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent {
 }
 
 .social_link {
-    margin-left: 11%;
+    margin-left: 14%;
 }
 
 .main_nav_active:active{
@@ -36,7 +41,7 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-transparent {
 
 
 #navbarNav {
-	margin-left: 25%;
+	margin-left: 20%;
 }
 .nav-link {
 	font-weight: 600;

@@ -7,24 +7,25 @@ import { HashLink as Link } from "react-router-hash-link";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+// import {  Link} from "react-router-dom";
 
 const Navbar = () => {
-  //   const [navbar,setNavbar]= useState(false)
+    const [navbar,setNavbar]= useState(false)
 
-  // const changeBackground =()=>{
-  //   // console.log(window.scrollY);
-  //   if(window.scrollY >= 80){
-  //     setNavbar(true);
-  //   } else {
-  //     setNavbar(false);
+  const changeBackground =()=>{
+    console.log(window.scrollY);
+    if(window.scrollY >= 80){
+      setNavbar(true);
+    } else {
+      setNavbar(false);
 
-  //   }
-  // }
-  // window.addEventListener('scroll',changeBackground);
+    }
+  }
+  window.addEventListener('scroll',changeBackground);
 
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent  fixed-top">
+      <nav class={navbar ? "navbar scroll navbar-expand-lg navbar-dark bg-transparent  fixed-top" : "navbar  navbar-expand-lg navbar-dark bg-transparent  fixed-top"}>
         <Link class="navbar-brand ml-5" to="/">
           {/* <i>M.H</i> */}
           <img src={logo} alt="" />

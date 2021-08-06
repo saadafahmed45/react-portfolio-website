@@ -48,3 +48,24 @@
         
     }
 }
+
+.prt_spinner {
+	margin-left: 45%;
+	margin-top: 10%;
+}
+
+.spinner-grow {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  vertical-align: text-bottom;
+  background-color: currentColor;
+  border-radius: 50%;
+  opacity: 0;
+  -webkit-animation: spinner-grow .75s linear infinite;
+  animation: spinner-grow .75s linear infinite;
+}
+
+.spinnerColor {
+  color: #12e045!important;
+}

@@ -9,6 +9,8 @@ import Contact from "./Components/Home/AboutSection/AboutSection";
 import NotFound from "./Components/NotFound/NotFound";
 
 function App() {
+
+
   return (
     <div className="App">
       <Router>

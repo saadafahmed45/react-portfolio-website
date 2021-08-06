@@ -34,7 +34,14 @@ const Portfolio = () => {
         </div>
         </Fade>
         <div className="row">
-
+          
+        {data.length === 0 && (
+            <div class="prt_spinner">
+            <div class="spinner-grow spinnerColor" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+            </div>
+          )}
        {
          data.map(data => (
           <div className="col-md-4">
